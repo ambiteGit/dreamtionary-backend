@@ -1,0 +1,1693 @@
+{
+  "personas_y_relaciones": [
+    {
+      "key": "madre",
+      "es": {
+        "simbolo": "Madre",
+        "significado": "Representa protección y cuidado emocional, o la relación con los orígenes."
+      },
+      "en": {
+        "simbolo": "Mother",
+        "significado": "Represents protection and emotional care, or your relationship with your origins."
+      },
+      "fr": {
+        "simbolo": "Mère",
+        "significado": "Représente la protection et le soin émotionnel, ou le lien avec les origines."
+      },
+      "pt": {
+        "simbolo": "Mãe",
+        "significado": "Representa proteção e cuidado emocional, ou a relação com as origens."
+      },
+      "zh": {
+        "simbolo": "母亲",
+        "significado": "代表保护和情感关怀,或与自身根源的关系。"
+      }
+    },
+    {
+      "key": "padre",
+      "es": {
+        "simbolo": "Padre",
+        "significado": "Simboliza autoridad, estructura y guía."
+      },
+      "en": {
+        "simbolo": "Father",
+        "significado": "Symbolizes authority, structure, and guidance."
+      },
+      "fr": {
+        "simbolo": "Père",
+        "significado": "Symbolise l'autorité, la structure et le guide."
+      },
+      "pt": {
+        "simbolo": "Pai",
+        "significado": "Simboliza autoridade, estrutura e orientação."
+      },
+      "zh": {
+        "simbolo": "父亲",
+        "significado": "象征权威、结构和引导。"
+      }
+    },
+    {
+      "key": "ex_pareja",
+      "es": {
+        "simbolo": "Ex pareja",
+        "significado": "Indica asuntos emocionales pendientes o nostalgia del pasado."
+      },
+      "en": {
+        "simbolo": "Ex-partner",
+        "significado": "Indicates unresolved emotional matters or nostalgia for the past."
+      },
+      "fr": {
+        "simbolo": "Ex-partenaire",
+        "significado": "Indique des questions émotionnelles non résolues ou de la nostalgie."
+      },
+      "pt": {
+        "simbolo": "Ex-parceiro(a)",
+        "significado": "Indica questões emocionais pendentes ou nostalgia do passado."
+      },
+      "zh": {
+        "simbolo": "前任伴侣",
+        "significado": "表示未解决的情感问题或对过去的怀念。"
+      }
+    },
+    {
+      "key": "bebe",
+      "es": {
+        "simbolo": "Bebé",
+        "significado": "Asociado a nuevos comienzos y proyectos en gestación."
+      },
+      "en": {
+        "simbolo": "Baby",
+        "significado": "Associated with new beginnings and projects taking shape."
+      },
+      "fr": {
+        "simbolo": "Bébé",
+        "significado": "Associé aux nouveaux départs et aux projets en gestation."
+      },
+      "pt": {
+        "simbolo": "Bebê",
+        "significado": "Associado a novos começos e projetos em formação."
+      },
+      "zh": {
+        "simbolo": "婴儿",
+        "significado": "象征新的开始和正在孕育的计划。"
+      }
+    },
+    {
+      "key": "desconocido",
+      "es": {
+        "simbolo": "Desconocido",
+        "significado": "Representa aspectos ocultos de uno mismo aún no reconocidos."
+      },
+      "en": {
+        "simbolo": "Stranger",
+        "significado": "Represents hidden aspects of yourself not yet acknowledged."
+      },
+      "fr": {
+        "simbolo": "Inconnu",
+        "significado": "Représente des aspects cachés de soi non encore reconnus."
+      },
+      "pt": {
+        "simbolo": "Desconhecido",
+        "significado": "Representa aspectos ocultos de si mesmo ainda não reconhecidos."
+      },
+      "zh": {
+        "simbolo": "陌生人",
+        "significado": "代表自己尚未察觉的隐藏面。"
+      }
+    },
+    {
+      "key": "amigo",
+      "es": {
+        "simbolo": "Amigo",
+        "significado": "Refleja apoyo social y cualidades que admiras."
+      },
+      "en": {
+        "simbolo": "Friend",
+        "significado": "Reflects social support and qualities you admire."
+      },
+      "fr": {
+        "simbolo": "Ami",
+        "significado": "Reflète le soutien social et les qualités que tu admires."
+      },
+      "pt": {
+        "simbolo": "Amigo",
+        "significado": "Reflete apoio social e qualidades que você admira."
+      },
+      "zh": {
+        "simbolo": "朋友",
+        "significado": "反映社会支持以及你所欣赏的品质。"
+      }
+    },
+    {
+      "key": "enemigo",
+      "es": {
+        "simbolo": "Enemigo",
+        "significado": "Simboliza conflictos internos o partes de ti que rechazas."
+      },
+      "en": {
+        "simbolo": "Enemy",
+        "significado": "Symbolizes inner conflict or parts of yourself you reject."
+      },
+      "fr": {
+        "simbolo": "Ennemi",
+        "significado": "Symbolise un conflit intérieur ou des parts de toi rejetées."
+      },
+      "pt": {
+        "simbolo": "Inimigo",
+        "significado": "Simboliza conflito interno ou partes de você que rejeita."
+      },
+      "zh": {
+        "simbolo": "敌人",
+        "significado": "象征内心冲突或你所排斥的自我部分。"
+      }
+    },
+    {
+      "key": "multitud",
+      "es": {
+        "simbolo": "Multitud",
+        "significado": "Relacionada con presión social o necesidad de pertenencia."
+      },
+      "en": {
+        "simbolo": "Crowd",
+        "significado": "Related to social pressure or the need to belong."
+      },
+      "fr": {
+        "simbolo": "Foule",
+        "significado": "Lié à la pression sociale ou au besoin d'appartenance."
+      },
+      "pt": {
+        "simbolo": "Multidão",
+        "significado": "Relacionada à pressão social ou à necessidade de pertencer."
+      },
+      "zh": {
+        "simbolo": "人群",
+        "significado": "与社会压力或归属需求有关。"
+      }
+    },
+    {
+      "key": "profesor",
+      "es": {
+        "simbolo": "Profesor",
+        "significado": "Simboliza sabiduría o una autoridad que evalúa tu progreso."
+      },
+      "en": {
+        "simbolo": "Teacher",
+        "significado": "Symbolizes wisdom or an authority evaluating your progress."
+      },
+      "fr": {
+        "simbolo": "Professeur",
+        "significado": "Symbolise la sagesse ou une autorité qui évalue tes progrès."
+      },
+      "pt": {
+        "simbolo": "Professor",
+        "significado": "Simboliza sabedoria ou uma autoridade que avalia seu progresso."
+      },
+      "zh": {
+        "simbolo": "老师",
+        "significado": "象征智慧,或评估你进步的权威人物。"
+      }
+    },
+    {
+      "key": "jefe",
+      "es": {
+        "simbolo": "Jefe",
+        "significado": "Representa presión laboral o inseguridad sobre tu desempeño."
+      },
+      "en": {
+        "simbolo": "Boss",
+        "significado": "Represents work pressure or insecurity about your performance."
+      },
+      "fr": {
+        "simbolo": "Patron",
+        "significado": "Représente la pression au travail ou l'insécurité sur tes performances."
+      },
+      "pt": {
+        "simbolo": "Chefe",
+        "significado": "Representa pressão no trabalho ou insegurança sobre seu desempenho."
+      },
+      "zh": {
+        "simbolo": "老板",
+        "significado": "代表工作压力或对自己表现的不安。"
+      }
+    },
+    {
+      "key": "hermano_hermana",
+      "es": {
+        "simbolo": "Hermano/a",
+        "significado": "Asociado a rivalidad, complicidad o partes propias reflejadas."
+      },
+      "en": {
+        "simbolo": "Sibling",
+        "significado": "Associated with rivalry, complicity, or parts of yourself reflected in them."
+      },
+      "fr": {
+        "simbolo": "Frère/sœur",
+        "significado": "Associé à la rivalité, la complicité ou des parts de toi reflétées."
+      },
+      "pt": {
+        "simbolo": "Irmão/irmã",
+        "significado": "Associado à rivalidade, cumplicidade ou partes de você refletidas."
+      },
+      "zh": {
+        "simbolo": "兄弟姐妹",
+        "significado": "与竞争、默契或映照出的自我有关。"
+      }
+    },
+    {
+      "key": "novio_novia",
+      "es": {
+        "simbolo": "Novio/a",
+        "significado": "Refleja el estado emocional de tu relación actual."
+      },
+      "en": {
+        "simbolo": "Partner",
+        "significado": "Reflects the emotional state of your current relationship."
+      },
+      "fr": {
+        "simbolo": "Petit(e) ami(e)",
+        "significado": "Reflète l'état émotionnel de ta relation actuelle."
+      },
+      "pt": {
+        "simbolo": "Namorado(a)",
+        "significado": "Reflete o estado emocional do seu relacionamento atual."
+      },
+      "zh": {
+        "simbolo": "恋人",
+        "significado": "反映你当前感情关系的情绪状态。"
+      }
+    },
+    {
+      "key": "anciano",
+      "es": {
+        "simbolo": "Anciano",
+        "significado": "Representa sabiduría o una guía interior que aconseja."
+      },
+      "en": {
+        "simbolo": "Elder",
+        "significado": "Represents wisdom or an inner guide offering advice."
+      },
+      "fr": {
+        "simbolo": "Personne âgée",
+        "significado": "Représente la sagesse ou un guide intérieur qui conseille."
+      },
+      "pt": {
+        "simbolo": "Idoso",
+        "significado": "Representa sabedoria ou um guia interior que aconselha."
+      },
+      "zh": {
+        "simbolo": "老人",
+        "significado": "象征智慧或给予建议的内在引导者。"
+      }
+    },
+    {
+      "key": "nino",
+      "es": {
+        "simbolo": "Niño",
+        "significado": "Simboliza inocencia o tu propio niño interior."
+      },
+      "en": {
+        "simbolo": "Child",
+        "significado": "Symbolizes innocence or your own inner child."
+      },
+      "fr": {
+        "simbolo": "Enfant",
+        "significado": "Symbolise l'innocence ou ton enfant intérieur."
+      },
+      "pt": {
+        "simbolo": "Criança",
+        "significado": "Simboliza inocência ou sua própria criança interior."
+      },
+      "zh": {
+        "simbolo": "孩子",
+        "significado": "象征纯真或你内心的\"内在小孩\"。"
+      }
+    }
+  ],
+  "cuerpo": [
+    {
+      "key": "dientes",
+      "es": {
+        "simbolo": "Dientes",
+        "significado": "Inseguridad, miedo a perder el control o cambios importantes."
+      },
+      "en": {
+        "simbolo": "Teeth",
+        "significado": "Insecurity, fear of losing control, or major life changes."
+      },
+      "fr": {
+        "simbolo": "Dents",
+        "significado": "Insécurité, peur de perdre le contrôle ou grands changements."
+      },
+      "pt": {
+        "simbolo": "Dentes",
+        "significado": "Insegurança, medo de perder o controle ou grandes mudanças."
+      },
+      "zh": {
+        "simbolo": "牙齿",
+        "significado": "不安全感、害怕失控,或重大的人生变化。"
+      }
+    },
+    {
+      "key": "caida_de_pelo",
+      "es": {
+        "simbolo": "Caída de pelo",
+        "significado": "Pérdida de vitalidad o preocupación por la imagen personal."
+      },
+      "en": {
+        "simbolo": "Hair loss",
+        "significado": "Loss of vitality or concern about self-image."
+      },
+      "fr": {
+        "simbolo": "Chute de cheveux",
+        "significado": "Perte de vitalité ou souci de l'image de soi."
+      },
+      "pt": {
+        "simbolo": "Queda de cabelo",
+        "significado": "Perda de vitalidade ou preocupação com a autoimagem."
+      },
+      "zh": {
+        "simbolo": "掉发",
+        "significado": "活力流失或对自我形象的担忧。"
+      }
+    },
+    {
+      "key": "embarazo",
+      "es": {
+        "simbolo": "Embarazo",
+        "significado": "Un proyecto o idea en desarrollo, o crecimiento personal."
+      },
+      "en": {
+        "simbolo": "Pregnancy",
+        "significado": "A project or idea taking shape, or personal growth."
+      },
+      "fr": {
+        "simbolo": "Grossesse",
+        "significado": "Un projet ou une idée en gestation, ou une croissance personnelle."
+      },
+      "pt": {
+        "simbolo": "Gravidez",
+        "significado": "Um projeto ou ideia em desenvolvimento, ou crescimento pessoal."
+      },
+      "zh": {
+        "simbolo": "怀孕",
+        "significado": "正在发展的计划或想法,或个人的成长。"
+      }
+    },
+    {
+      "key": "sangre",
+      "es": {
+        "simbolo": "Sangre",
+        "significado": "Vitalidad, pérdida de energía o asuntos familiares."
+      },
+      "en": {
+        "simbolo": "Blood",
+        "significado": "Vitality, loss of energy, or family matters."
+      },
+      "fr": {
+        "simbolo": "Sang",
+        "significado": "Vitalité, perte d'énergie ou questions familiales."
+      },
+      "pt": {
+        "simbolo": "Sangue",
+        "significado": "Vitalidade, perda de energia ou questões familiares."
+      },
+      "zh": {
+        "simbolo": "血",
+        "significado": "生命力、精力流失,或家族相关的事务。"
+      }
+    },
+    {
+      "key": "desnudez",
+      "es": {
+        "simbolo": "Desnudez",
+        "significado": "Vulnerabilidad o el deseo de mostrarte tal como eres."
+      },
+      "en": {
+        "simbolo": "Nakedness",
+        "significado": "Vulnerability or the desire to show your true self."
+      },
+      "fr": {
+        "simbolo": "Nudité",
+        "significado": "Vulnérabilité ou désir de se montrer tel que l'on est."
+      },
+      "pt": {
+        "simbolo": "Nudez",
+        "significado": "Vulnerabilidade ou o desejo de se mostrar como realmente é."
+      },
+      "zh": {
+        "simbolo": "裸体",
+        "significado": "脆弱感,或渴望展现真实的自己。"
+      }
+    },
+    {
+      "key": "ceguera",
+      "es": {
+        "simbolo": "Ceguera",
+        "significado": "No querer ver una verdad o falta de claridad."
+      },
+      "en": {
+        "simbolo": "Blindness",
+        "significado": "Refusing to see a truth, or lack of clarity."
+      },
+      "fr": {
+        "simbolo": "Cécité",
+        "significado": "Refus de voir une vérité ou manque de clarté."
+      },
+      "pt": {
+        "simbolo": "Cegueira",
+        "significado": "Não querer ver uma verdade ou falta de clareza."
+      },
+      "zh": {
+        "simbolo": "失明",
+        "significado": "不愿面对某个真相,或缺乏清晰的认知。"
+      }
+    },
+    {
+      "key": "manos",
+      "es": {
+        "simbolo": "Manos",
+        "significado": "Capacidad de acción o cómo manejas tus problemas."
+      },
+      "en": {
+        "simbolo": "Hands",
+        "significado": "Capacity for action or how you handle your problems."
+      },
+      "fr": {
+        "simbolo": "Mains",
+        "significado": "Capacité d'agir ou façon de gérer ses problèmes."
+      },
+      "pt": {
+        "simbolo": "Mãos",
+        "significado": "Capacidade de ação ou como você lida com seus problemas."
+      },
+      "zh": {
+        "simbolo": "双手",
+        "significado": "行动能力,或你处理问题的方式。"
+      }
+    },
+    {
+      "key": "corazon",
+      "es": {
+        "simbolo": "Corazón",
+        "significado": "Emociones profundas, amor o asuntos afectivos."
+      },
+      "en": {
+        "simbolo": "Heart",
+        "significado": "Deep emotions, love, or matters of the heart."
+      },
+      "fr": {
+        "simbolo": "Cœur",
+        "significado": "Émotions profondes, amour ou questions affectives."
+      },
+      "pt": {
+        "simbolo": "Coração",
+        "significado": "Emoções profundas, amor ou questões afetivas."
+      },
+      "zh": {
+        "simbolo": "心",
+        "significado": "深层情感、爱,或情感相关的事务。"
+      }
+    },
+    {
+      "key": "envejecer",
+      "es": {
+        "simbolo": "Envejecer",
+        "significado": "Preocupación por el paso del tiempo o la madurez."
+      },
+      "en": {
+        "simbolo": "Aging",
+        "significado": "Concern about the passage of time or maturity."
+      },
+      "fr": {
+        "simbolo": "Vieillir",
+        "significado": "Préoccupation liée au temps qui passe ou à la maturité."
+      },
+      "pt": {
+        "simbolo": "Envelhecer",
+        "significado": "Preocupação com a passagem do tempo ou a maturidade."
+      },
+      "zh": {
+        "simbolo": "衰老",
+        "significado": "对时间流逝或成熟的忧虑。"
+      }
+    },
+    {
+      "key": "enfermedad",
+      "es": {
+        "simbolo": "Enfermedad",
+        "significado": "Un desequilibrio emocional o una situación que \"enferma\"."
+      },
+      "en": {
+        "simbolo": "Illness",
+        "significado": "An emotional imbalance or a situation that \"sickens\" you."
+      },
+      "fr": {
+        "simbolo": "Maladie",
+        "significado": "Un déséquilibre émotionnel ou une situation qui \"rend malade\"."
+      },
+      "pt": {
+        "simbolo": "Doença",
+        "significado": "Um desequilíbrio emocional ou uma situação que \"adoece\"."
+      },
+      "zh": {
+        "simbolo": "疾病",
+        "significado": "情绪失衡,或某种令人心力交瘁的处境。"
+      }
+    }
+  ],
+  "naturaleza": [
+    {
+      "key": "agua",
+      "es": {
+        "simbolo": "Agua",
+        "significado": "Símbolo universal de las emociones; clara es calma, turbia es conflicto."
+      },
+      "en": {
+        "simbolo": "Water",
+        "significado": "Universal symbol of emotions; clear means calm, murky means conflict."
+      },
+      "fr": {
+        "simbolo": "Eau",
+        "significado": "Symbole universel des émotions ; claire = calme, trouble = conflit."
+      },
+      "pt": {
+        "simbolo": "Água",
+        "significado": "Símbolo universal das emoções; clara é calma, turva é conflito."
+      },
+      "zh": {
+        "simbolo": "水",
+        "significado": "情绪的普遍象征;清澈代表平静,浑浊代表冲突。"
+      }
+    },
+    {
+      "key": "fuego",
+      "es": {
+        "simbolo": "Fuego",
+        "significado": "Pasión, transformación o ira necesaria para un nuevo comienzo."
+      },
+      "en": {
+        "simbolo": "Fire",
+        "significado": "Passion, transformation, or anger needed for a new beginning."
+      },
+      "fr": {
+        "simbolo": "Feu",
+        "significado": "Passion, transformation ou colère nécessaire à un nouveau départ."
+      },
+      "pt": {
+        "simbolo": "Fogo",
+        "significado": "Paixão, transformação ou raiva necessária para um novo começo."
+      },
+      "zh": {
+        "simbolo": "火",
+        "significado": "激情、蜕变,或推动新开始所需的愤怒。"
+      }
+    },
+    {
+      "key": "tierra_terremoto",
+      "es": {
+        "simbolo": "Terremoto",
+        "significado": "Inestabilidad o sensación de que las bases se tambalean."
+      },
+      "en": {
+        "simbolo": "Earthquake",
+        "significado": "Instability or the sense that your foundations are shaking."
+      },
+      "fr": {
+        "simbolo": "Tremblement de terre",
+        "significado": "Instabilité ou sensation que les bases vacillent."
+      },
+      "pt": {
+        "simbolo": "Terremoto",
+        "significado": "Instabilidade ou sensação de que as bases estão abaladas."
+      },
+      "zh": {
+        "simbolo": "地震",
+        "significado": "不稳定感,或觉得根基正在动摇。"
+      }
+    },
+    {
+      "key": "serpiente",
+      "es": {
+        "simbolo": "Serpiente",
+        "significado": "Peligro y traición, o sabiduría y transformación, según el contexto."
+      },
+      "en": {
+        "simbolo": "Snake",
+        "significado": "Danger and betrayal, or wisdom and transformation, depending on context."
+      },
+      "fr": {
+        "simbolo": "Serpent",
+        "significado": "Danger et trahison, ou sagesse et transformation, selon le contexte."
+      },
+      "pt": {
+        "simbolo": "Cobra",
+        "significado": "Perigo e traição, ou sabedoria e transformação, conforme o contexto."
+      },
+      "zh": {
+        "simbolo": "蛇",
+        "significado": "视情境而定,象征危险与背叛,或智慧与蜕变。"
+      }
+    },
+    {
+      "key": "tormenta",
+      "es": {
+        "simbolo": "Tormenta",
+        "significado": "Turbulencia emocional o tensión acumulada."
+      },
+      "en": {
+        "simbolo": "Storm",
+        "significado": "Emotional turbulence or built-up tension."
+      },
+      "fr": {
+        "simbolo": "Tempête",
+        "significado": "Turbulence émotionnelle ou tension accumulée."
+      },
+      "pt": {
+        "simbolo": "Tempestade",
+        "significado": "Turbulência emocional ou tensão acumulada."
+      },
+      "zh": {
+        "simbolo": "暴风雨",
+        "significado": "情绪的动荡或积累已久的紧张感。"
+      }
+    },
+    {
+      "key": "arbol",
+      "es": {
+        "simbolo": "Árbol",
+        "significado": "Crecimiento personal, raíces familiares o estabilidad."
+      },
+      "en": {
+        "simbolo": "Tree",
+        "significado": "Personal growth, family roots, or stability."
+      },
+      "fr": {
+        "simbolo": "Arbre",
+        "significado": "Croissance personnelle, racines familiales ou stabilité."
+      },
+      "pt": {
+        "simbolo": "Árvore",
+        "significado": "Crescimento pessoal, raízes familiares ou estabilidade."
+      },
+      "zh": {
+        "simbolo": "树",
+        "significado": "个人成长、家族根源,或稳定感。"
+      }
+    },
+    {
+      "key": "oceano_mar",
+      "es": {
+        "simbolo": "Océano/mar",
+        "significado": "El inconsciente profundo o emociones vastas y difíciles de controlar."
+      },
+      "en": {
+        "simbolo": "Ocean/sea",
+        "significado": "The deep unconscious, or vast, hard-to-control emotions."
+      },
+      "fr": {
+        "simbolo": "Océan/mer",
+        "significado": "L'inconscient profond, ou des émotions vastes et difficiles à maîtriser."
+      },
+      "pt": {
+        "simbolo": "Oceano/mar",
+        "significado": "O inconsciente profundo, ou emoções vastas e difíceis de controlar."
+      },
+      "zh": {
+        "simbolo": "海洋",
+        "significado": "深层潜意识,或广阔而难以掌控的情绪。"
+      }
+    },
+    {
+      "key": "sol",
+      "es": {
+        "simbolo": "Sol",
+        "significado": "Claridad, vitalidad, éxito y energía positiva."
+      },
+      "en": {
+        "simbolo": "Sun",
+        "significado": "Clarity, vitality, success, and positive energy."
+      },
+      "fr": {
+        "simbolo": "Soleil",
+        "significado": "Clarté, vitalité, succès et énergie positive."
+      },
+      "pt": {
+        "simbolo": "Sol",
+        "significado": "Clareza, vitalidade, sucesso e energia positiva."
+      },
+      "zh": {
+        "simbolo": "太阳",
+        "significado": "清晰、活力、成功与正能量。"
+      }
+    },
+    {
+      "key": "luna",
+      "es": {
+        "simbolo": "Luna",
+        "significado": "El mundo emocional, la intuición y los ciclos internos."
+      },
+      "en": {
+        "simbolo": "Moon",
+        "significado": "The emotional world, intuition, and inner cycles."
+      },
+      "fr": {
+        "simbolo": "Lune",
+        "significado": "Le monde émotionnel, l'intuition et les cycles intérieurs."
+      },
+      "pt": {
+        "simbolo": "Lua",
+        "significado": "O mundo emocional, a intuição e os ciclos internos."
+      },
+      "zh": {
+        "simbolo": "月亮",
+        "significado": "情感世界、直觉与内在的周期变化。"
+      }
+    },
+    {
+      "key": "lluvia",
+      "es": {
+        "simbolo": "Lluvia",
+        "significado": "Liberación emocional, tristeza o un proceso de limpieza interior."
+      },
+      "en": {
+        "simbolo": "Rain",
+        "significado": "Emotional release, sadness, or an inner cleansing process."
+      },
+      "fr": {
+        "simbolo": "Pluie",
+        "significado": "Libération émotionnelle, tristesse ou processus de purification intérieure."
+      },
+      "pt": {
+        "simbolo": "Chuva",
+        "significado": "Libertação emocional, tristeza ou um processo de limpeza interior."
+      },
+      "zh": {
+        "simbolo": "雨",
+        "significado": "情绪的释放、悲伤,或内心的净化过程。"
+      }
+    },
+    {
+      "key": "montana",
+      "es": {
+        "simbolo": "Montaña",
+        "significado": "Desafíos, metas ambiciosas o la necesidad de superar obstáculos."
+      },
+      "en": {
+        "simbolo": "Mountain",
+        "significado": "Challenges, ambitious goals, or the need to overcome obstacles."
+      },
+      "fr": {
+        "simbolo": "Montagne",
+        "significado": "Défis, objectifs ambitieux ou besoin de surmonter des obstacles."
+      },
+      "pt": {
+        "simbolo": "Montanha",
+        "significado": "Desafios, metas ambiciosas ou a necessidade de superar obstáculos."
+      },
+      "zh": {
+        "simbolo": "山",
+        "significado": "挑战、宏大的目标,或克服障碍的需要。"
+      }
+    },
+    {
+      "key": "bosque",
+      "es": {
+        "simbolo": "Bosque",
+        "significado": "Lo desconocido, el inconsciente o un periodo de exploración interior."
+      },
+      "en": {
+        "simbolo": "Forest",
+        "significado": "The unknown, the unconscious, or a period of inner exploration."
+      },
+      "fr": {
+        "simbolo": "Forêt",
+        "significado": "L'inconnu, l'inconscient ou une période d'exploration intérieure."
+      },
+      "pt": {
+        "simbolo": "Floresta",
+        "significado": "O desconhecido, o inconsciente ou um período de exploração interior."
+      },
+      "zh": {
+        "simbolo": "森林",
+        "significado": "未知、潜意识,或一段向内探索的时期。"
+      }
+    },
+    {
+      "key": "flores",
+      "es": {
+        "simbolo": "Flores",
+        "significado": "Belleza, crecimiento personal o etapas de florecimiento."
+      },
+      "en": {
+        "simbolo": "Flowers",
+        "significado": "Beauty, personal growth, or a blossoming stage in life."
+      },
+      "fr": {
+        "simbolo": "Fleurs",
+        "significado": "Beauté, croissance personnelle ou étapes d'épanouissement."
+      },
+      "pt": {
+        "simbolo": "Flores",
+        "significado": "Beleza, crescimento pessoal ou etapas de florescimento."
+      },
+      "zh": {
+        "simbolo": "花朵",
+        "significado": "美丽、个人成长,或人生中绽放的阶段。"
+      }
+    },
+    {
+      "key": "arana",
+      "es": {
+        "simbolo": "Araña",
+        "significado": "Sensación de estar atrapado, manipulación o miedos poco racionales."
+      },
+      "en": {
+        "simbolo": "Spider",
+        "significado": "Feeling trapped, manipulation, or irrational fears."
+      },
+      "fr": {
+        "simbolo": "Araignée",
+        "significado": "Sentiment d'être piégé, manipulation ou peurs irrationnelles."
+      },
+      "pt": {
+        "simbolo": "Aranha",
+        "significado": "Sensação de estar preso, manipulação ou medos irracionais."
+      },
+      "zh": {
+        "simbolo": "蜘蛛",
+        "significado": "被困的感觉、被操控,或非理性的恐惧。"
+      }
+    },
+    {
+      "key": "lobo",
+      "es": {
+        "simbolo": "Lobo",
+        "significado": "Instintos primarios, independencia o peligros percibidos."
+      },
+      "en": {
+        "simbolo": "Wolf",
+        "significado": "Primal instincts, independence, or perceived dangers."
+      },
+      "fr": {
+        "simbolo": "Loup",
+        "significado": "Instincts primaires, indépendance ou dangers perçus."
+      },
+      "pt": {
+        "simbolo": "Lobo",
+        "significado": "Instintos primários, independência ou perigos percebidos."
+      },
+      "zh": {
+        "simbolo": "狼",
+        "significado": "原始本能、独立性,或感知到的危险。"
+      }
+    },
+    {
+      "key": "pajaro",
+      "es": {
+        "simbolo": "Pájaro",
+        "significado": "Libertad, aspiraciones o mensajes del inconsciente."
+      },
+      "en": {
+        "simbolo": "Bird",
+        "significado": "Freedom, aspirations, or messages from the unconscious."
+      },
+      "fr": {
+        "simbolo": "Oiseau",
+        "significado": "Liberté, aspirations ou messages de l'inconscient."
+      },
+      "pt": {
+        "simbolo": "Pássaro",
+        "significado": "Liberdade, aspirações ou mensagens do inconsciente."
+      },
+      "zh": {
+        "simbolo": "鸟",
+        "significado": "自由、渴望,或来自潜意识的讯息。"
+      }
+    }
+  ],
+  "situaciones": [
+    {
+      "key": "volar",
+      "es": {
+        "simbolo": "Volar",
+        "significado": "Libertad, control sobre tu vida o deseo de escapar."
+      },
+      "en": {
+        "simbolo": "Flying",
+        "significado": "Freedom, control over your life, or a desire to escape."
+      },
+      "fr": {
+        "simbolo": "Voler",
+        "significado": "Liberté, contrôle sur sa vie ou désir de s'échapper."
+      },
+      "pt": {
+        "simbolo": "Voar",
+        "significado": "Liberdade, controle sobre sua vida ou desejo de escapar."
+      },
+      "zh": {
+        "simbolo": "飞行",
+        "significado": "自由、掌控人生,或渴望逃离现状。"
+      }
+    },
+    {
+      "key": "caer",
+      "es": {
+        "simbolo": "Caer",
+        "significado": "Inseguridad, pérdida de control o miedo al fracaso."
+      },
+      "en": {
+        "simbolo": "Falling",
+        "significado": "Insecurity, loss of control, or fear of failure."
+      },
+      "fr": {
+        "simbolo": "Tomber",
+        "significado": "Insécurité, perte de contrôle ou peur de l'échec."
+      },
+      "pt": {
+        "simbolo": "Cair",
+        "significado": "Insegurança, perda de controle ou medo do fracasso."
+      },
+      "zh": {
+        "simbolo": "坠落",
+        "significado": "不安全感、失控,或对失败的恐惧。"
+      }
+    },
+    {
+      "key": "ser_perseguido",
+      "es": {
+        "simbolo": "Ser perseguido",
+        "significado": "Estás evitando enfrentar un problema o responsabilidad."
+      },
+      "en": {
+        "simbolo": "Being chased",
+        "significado": "You're avoiding facing a problem or responsibility."
+      },
+      "fr": {
+        "simbolo": "Être poursuivi",
+        "significado": "Tu évites d'affronter un problème ou une responsabilité."
+      },
+      "pt": {
+        "simbolo": "Ser perseguido",
+        "significado": "Você está evitando enfrentar um problema ou responsabilidade."
+      },
+      "zh": {
+        "simbolo": "被追赶",
+        "significado": "你正在逃避面对某个问题或责任。"
+      }
+    },
+    {
+      "key": "examen",
+      "es": {
+        "simbolo": "Examen",
+        "significado": "Sentirse evaluado, inseguridad sobre tus capacidades o miedo al fracaso."
+      },
+      "en": {
+        "simbolo": "Exam",
+        "significado": "Feeling evaluated, insecurity about your abilities, or fear of failure."
+      },
+      "fr": {
+        "simbolo": "Examen",
+        "significado": "Se sentir évalué, insécurité sur ses capacités ou peur de l'échec."
+      },
+      "pt": {
+        "simbolo": "Prova/exame",
+        "significado": "Sentir-se avaliado, insegurança sobre suas capacidades ou medo do fracasso."
+      },
+      "zh": {
+        "simbolo": "考试",
+        "significado": "感觉被评判、对自身能力的不安,或对失败的恐惧。"
+      }
+    },
+    {
+      "key": "llegar_tarde",
+      "es": {
+        "simbolo": "Llegar tarde",
+        "significado": "Ansiedad por perder oportunidades o sentirte no preparado."
+      },
+      "en": {
+        "simbolo": "Being late",
+        "significado": "Anxiety about missing opportunities or feeling unprepared."
+      },
+      "fr": {
+        "simbolo": "Être en retard",
+        "significado": "Anxiété de manquer des opportunités ou de ne pas être prêt."
+      },
+      "pt": {
+        "simbolo": "Chegar atrasado",
+        "significado": "Ansiedade por perder oportunidades ou se sentir despreparado."
+      },
+      "zh": {
+        "simbolo": "迟到",
+        "significado": "害怕错失机会,或感觉自己尚未准备好。"
+      }
+    },
+    {
+      "key": "perderse",
+      "es": {
+        "simbolo": "Perderse",
+        "significado": "Falta de dirección o incertidumbre sobre decisiones importantes."
+      },
+      "en": {
+        "simbolo": "Getting lost",
+        "significado": "Lack of direction or uncertainty about important decisions."
+      },
+      "fr": {
+        "simbolo": "Se perdre",
+        "significado": "Manque de direction ou incertitude sur des décisions importantes."
+      },
+      "pt": {
+        "simbolo": "Perder-se",
+        "significado": "Falta de direção ou incerteza sobre decisões importantes."
+      },
+      "zh": {
+        "simbolo": "迷路",
+        "significado": "缺乏方向感,或对重要决定的不确定。"
+      }
+    },
+    {
+      "key": "no_poder_gritar_o_moverse",
+      "es": {
+        "simbolo": "No poder gritar o moverse",
+        "significado": "Sentirte impotente o incapaz de reaccionar ante algo."
+      },
+      "en": {
+        "simbolo": "Unable to scream or move",
+        "significado": "Feeling powerless or unable to react to something."
+      },
+      "fr": {
+        "simbolo": "Incapable de crier ou bouger",
+        "significado": "Se sentir impuissant ou incapable de réagir."
+      },
+      "pt": {
+        "simbolo": "Não conseguir gritar ou se mover",
+        "significado": "Sentir-se impotente ou incapaz de reagir."
+      },
+      "zh": {
+        "simbolo": "无法喊叫或动弹",
+        "significado": "感到无力或无法对某事做出反应。"
+      }
+    },
+    {
+      "key": "pelea_lucha",
+      "es": {
+        "simbolo": "Pelea/lucha",
+        "significado": "Conflictos internos o externos que enfrentas o evitas."
+      },
+      "en": {
+        "simbolo": "Fight/struggle",
+        "significado": "Internal or external conflicts you're facing or avoiding."
+      },
+      "fr": {
+        "simbolo": "Bagarre/lutte",
+        "significado": "Conflits internes ou externes que tu affrontes ou évites."
+      },
+      "pt": {
+        "simbolo": "Briga/luta",
+        "significado": "Conflitos internos ou externos que você enfrenta ou evita."
+      },
+      "zh": {
+        "simbolo": "打斗/争斗",
+        "significado": "你正在面对或回避的内在或外在冲突。"
+      }
+    },
+    {
+      "key": "boda",
+      "es": {
+        "simbolo": "Boda",
+        "significado": "Unión, compromiso o integración de partes de tu personalidad."
+      },
+      "en": {
+        "simbolo": "Wedding",
+        "significado": "Union, commitment, or integration of parts of your personality."
+      },
+      "fr": {
+        "simbolo": "Mariage",
+        "significado": "Union, engagement ou intégration de parts de ta personnalité."
+      },
+      "pt": {
+        "simbolo": "Casamento",
+        "significado": "União, compromisso ou integração de partes da sua personalidade."
+      },
+      "zh": {
+        "simbolo": "婚礼",
+        "significado": "结合、承诺,或自我人格中不同部分的融合。"
+      }
+    },
+    {
+      "key": "viaje",
+      "es": {
+        "simbolo": "Viaje",
+        "significado": "Una transición vital o el avance hacia nuevas metas."
+      },
+      "en": {
+        "simbolo": "Journey",
+        "significado": "A life transition or progress toward new goals."
+      },
+      "fr": {
+        "simbolo": "Voyage",
+        "significado": "Une transition de vie ou une avancée vers de nouveaux objectifs."
+      },
+      "pt": {
+        "simbolo": "Viagem",
+        "significado": "Uma transição de vida ou avanço rumo a novas metas."
+      },
+      "zh": {
+        "simbolo": "旅行",
+        "significado": "人生的转折,或朝新目标迈进。"
+      }
+    },
+    {
+      "key": "repetir_la_misma_accion",
+      "es": {
+        "simbolo": "Repetir la misma acción",
+        "significado": "Un patrón estancado o una lección aún no aprendida."
+      },
+      "en": {
+        "simbolo": "Repeating the same action",
+        "significado": "A stuck pattern or a lesson not yet learned."
+      },
+      "fr": {
+        "simbolo": "Répéter la même action",
+        "significado": "Un schéma bloqué ou une leçon pas encore apprise."
+      },
+      "pt": {
+        "simbolo": "Repetir a mesma ação",
+        "significado": "Um padrão estagnado ou uma lição ainda não aprendida."
+      },
+      "zh": {
+        "simbolo": "重复同一个动作",
+        "significado": "陷入停滞的模式,或尚未领悟的功课。"
+      }
+    },
+    {
+      "key": "esconderse",
+      "es": {
+        "simbolo": "Esconderse",
+        "significado": "Evasión de un problema, vergüenza o necesidad de protegerte."
+      },
+      "en": {
+        "simbolo": "Hiding",
+        "significado": "Avoiding a problem, shame, or the need to protect yourself."
+      },
+      "fr": {
+        "simbolo": "Se cacher",
+        "significado": "Évitement d'un problème, honte ou besoin de se protéger."
+      },
+      "pt": {
+        "simbolo": "Esconder-se",
+        "significado": "Evitar um problema, vergonha ou necessidade de se proteger."
+      },
+      "zh": {
+        "simbolo": "躲藏",
+        "significado": "回避某个问题、羞耻感,或保护自己的需要。"
+      }
+    }
+  ],
+  "objetos_y_lugares": [
+    {
+      "key": "casa",
+      "es": {
+        "simbolo": "Casa",
+        "significado": "El propio yo, la mente o la vida personal."
+      },
+      "en": {
+        "simbolo": "House",
+        "significado": "Your own self, your mind, or your personal life."
+      },
+      "fr": {
+        "simbolo": "Maison",
+        "significado": "Le soi, l'esprit ou la vie personnelle."
+      },
+      "pt": {
+        "simbolo": "Casa",
+        "significado": "O próprio eu, a mente ou a vida pessoal."
+      },
+      "zh": {
+        "simbolo": "房子",
+        "significado": "自我、内心,或个人的生活。"
+      }
+    },
+    {
+      "key": "coche",
+      "es": {
+        "simbolo": "Coche",
+        "significado": "Control sobre la dirección de tu vida."
+      },
+      "en": {
+        "simbolo": "Car",
+        "significado": "Control over the direction of your life."
+      },
+      "fr": {
+        "simbolo": "Voiture",
+        "significado": "Contrôle sur la direction de sa vie."
+      },
+      "pt": {
+        "simbolo": "Carro",
+        "significado": "Controle sobre a direção da sua vida."
+      },
+      "zh": {
+        "simbolo": "汽车",
+        "significado": "对人生方向的掌控。"
+      }
+    },
+    {
+      "key": "avion",
+      "es": {
+        "simbolo": "Avión",
+        "significado": "Grandes ambiciones o el deseo de elevarte sobre los problemas."
+      },
+      "en": {
+        "simbolo": "Airplane",
+        "significado": "Big ambitions or the desire to rise above your problems."
+      },
+      "fr": {
+        "simbolo": "Avion",
+        "significado": "Grandes ambitions ou désir de s'élever au-dessus des problèmes."
+      },
+      "pt": {
+        "simbolo": "Avião",
+        "significado": "Grandes ambições ou desejo de se elevar acima dos problemas."
+      },
+      "zh": {
+        "simbolo": "飞机",
+        "significado": "远大的抱负,或渴望超越眼前的困境。"
+      }
+    },
+    {
+      "key": "dinero",
+      "es": {
+        "simbolo": "Dinero",
+        "significado": "Autoestima, valor personal o preocupaciones económicas reales."
+      },
+      "en": {
+        "simbolo": "Money",
+        "significado": "Self-esteem, self-worth, or real financial concerns."
+      },
+      "fr": {
+        "simbolo": "Argent",
+        "significado": "Estime de soi, valeur personnelle ou soucis financiers réels."
+      },
+      "pt": {
+        "simbolo": "Dinheiro",
+        "significado": "Autoestima, valor pessoal ou preocupações financeiras reais."
+      },
+      "zh": {
+        "simbolo": "金钱",
+        "significado": "自尊、自我价值,或现实中的经济担忧。"
+      }
+    },
+    {
+      "key": "escaleras",
+      "es": {
+        "simbolo": "Escaleras",
+        "significado": "Progreso o retroceso; subir avanza, bajar puede ser un descenso emocional."
+      },
+      "en": {
+        "simbolo": "Stairs",
+        "significado": "Progress or setback; going up means advancing, going down may mean emotional decline."
+      },
+      "fr": {
+        "simbolo": "Escaliers",
+        "significado": "Progrès ou recul ; monter avance, descendre peut signifier un déclin émotionnel."
+      },
+      "pt": {
+        "simbolo": "Escadas",
+        "significado": "Progresso ou retrocesso; subir avança, descer pode ser um declínio emocional."
+      },
+      "zh": {
+        "simbolo": "楼梯",
+        "significado": "前进或后退;向上代表进步,向下可能意味着情绪低落。"
+      }
+    },
+    {
+      "key": "puerta",
+      "es": {
+        "simbolo": "Puerta",
+        "significado": "Oportunidades, nuevas etapas o decisiones por tomar."
+      },
+      "en": {
+        "simbolo": "Door",
+        "significado": "Opportunities, new stages, or decisions to be made."
+      },
+      "fr": {
+        "simbolo": "Porte",
+        "significado": "Opportunités, nouvelles étapes ou décisions à prendre."
+      },
+      "pt": {
+        "simbolo": "Porta",
+        "significado": "Oportunidades, novas etapas ou decisões a tomar."
+      },
+      "zh": {
+        "simbolo": "门",
+        "significado": "机会、新的阶段,或有待做出的决定。"
+      }
+    },
+    {
+      "key": "llaves",
+      "es": {
+        "simbolo": "Llaves",
+        "significado": "Soluciones, acceso a algo importante o control sobre una situación."
+      },
+      "en": {
+        "simbolo": "Keys",
+        "significado": "Solutions, access to something important, or control over a situation."
+      },
+      "fr": {
+        "simbolo": "Clés",
+        "significado": "Solutions, accès à quelque chose d'important ou contrôle d'une situation."
+      },
+      "pt": {
+        "simbolo": "Chaves",
+        "significado": "Soluções, acesso a algo importante ou controle sobre uma situação."
+      },
+      "zh": {
+        "simbolo": "钥匙",
+        "significado": "解决方案、通向重要事物的途径,或对局势的掌控。"
+      }
+    },
+    {
+      "key": "espejo",
+      "es": {
+        "simbolo": "Espejo",
+        "significado": "Autoconocimiento, identidad o cómo te percibes a ti mismo."
+      },
+      "en": {
+        "simbolo": "Mirror",
+        "significado": "Self-awareness, identity, or how you perceive yourself."
+      },
+      "fr": {
+        "simbolo": "Miroir",
+        "significado": "Connaissance de soi, identité ou perception de soi-même."
+      },
+      "pt": {
+        "simbolo": "Espelho",
+        "significado": "Autoconhecimento, identidade ou como você se percebe."
+      },
+      "zh": {
+        "simbolo": "镜子",
+        "significado": "自我认知、身份,或你如何看待自己。"
+      }
+    },
+    {
+      "key": "telefono",
+      "es": {
+        "simbolo": "Teléfono",
+        "significado": "Comunicación, mensajes pendientes o necesidad de conectar con alguien."
+      },
+      "en": {
+        "simbolo": "Phone",
+        "significado": "Communication, pending messages, or the need to connect with someone."
+      },
+      "fr": {
+        "simbolo": "Téléphone",
+        "significado": "Communication, messages en attente ou besoin de contacter quelqu'un."
+      },
+      "pt": {
+        "simbolo": "Telefone",
+        "significado": "Comunicação, mensagens pendentes ou necessidade de se conectar com alguém."
+      },
+      "zh": {
+        "simbolo": "电话",
+        "significado": "沟通、未回复的消息,或想要联系某人的需要。"
+      }
+    },
+    {
+      "key": "colegio_universidad",
+      "es": {
+        "simbolo": "Colegio/universidad",
+        "significado": "Aprendizaje, inseguridades sobre tu desempeño o etapas formativas."
+      },
+      "en": {
+        "simbolo": "School/university",
+        "significado": "Learning, insecurities about your performance, or formative stages of life."
+      },
+      "fr": {
+        "simbolo": "École/université",
+        "significado": "Apprentissage, insécurités sur ses performances ou étapes formatrices."
+      },
+      "pt": {
+        "simbolo": "Escola/universidade",
+        "significado": "Aprendizado, inseguranças sobre seu desempenho ou etapas formativas."
+      },
+      "zh": {
+        "simbolo": "学校/大学",
+        "significado": "学习、对自身表现的不安,或人生的成长阶段。"
+      }
+    },
+    {
+      "key": "hospital",
+      "es": {
+        "simbolo": "Hospital",
+        "significado": "Sanación, vulnerabilidad emocional o preocupación por la salud."
+      },
+      "en": {
+        "simbolo": "Hospital",
+        "significado": "Healing, emotional vulnerability, or concern about health."
+      },
+      "fr": {
+        "simbolo": "Hôpital",
+        "significado": "Guérison, vulnérabilité émotionnelle ou souci de santé."
+      },
+      "pt": {
+        "simbolo": "Hospital",
+        "significado": "Cura, vulnerabilidade emocional ou preocupação com a saúde."
+      },
+      "zh": {
+        "simbolo": "医院",
+        "significado": "疗愈、情感上的脆弱,或对健康的担忧。"
+      }
+    },
+    {
+      "key": "reloj",
+      "es": {
+        "simbolo": "Reloj",
+        "significado": "Presión del tiempo, plazos importantes o ansiedad sobre el futuro."
+      },
+      "en": {
+        "simbolo": "Clock",
+        "significado": "Time pressure, important deadlines, or anxiety about the future."
+      },
+      "fr": {
+        "simbolo": "Horloge",
+        "significado": "Pression du temps, échéances importantes ou anxiété face à l'avenir."
+      },
+      "pt": {
+        "simbolo": "Relógio",
+        "significado": "Pressão do tempo, prazos importantes ou ansiedade sobre o futuro."
+      },
+      "zh": {
+        "simbolo": "时钟",
+        "significado": "时间的压力、重要的期限,或对未来的焦虑。"
+      }
+    },
+    {
+      "key": "comida",
+      "es": {
+        "simbolo": "Comida",
+        "significado": "Necesidades emocionales, nutrición afectiva o abundancia y carencia."
+      },
+      "en": {
+        "simbolo": "Food",
+        "significado": "Emotional needs, affective nourishment, or abundance and scarcity."
+      },
+      "fr": {
+        "simbolo": "Nourriture",
+        "significado": "Besoins émotionnels, nourriture affective ou abondance et manque."
+      },
+      "pt": {
+        "simbolo": "Comida",
+        "significado": "Necessidades emocionais, nutrição afetiva ou abundância e carência."
+      },
+      "zh": {
+        "simbolo": "食物",
+        "significado": "情感需求、情感上的滋养,或富足与匮乏。"
+      }
+    },
+    {
+      "key": "barco",
+      "es": {
+        "simbolo": "Barco",
+        "significado": "El viaje emocional a través de la vida, en aguas calmas o turbulentas."
+      },
+      "en": {
+        "simbolo": "Boat",
+        "significado": "The emotional journey through life, in calm or turbulent waters."
+      },
+      "fr": {
+        "simbolo": "Bateau",
+        "significado": "Le voyage émotionnel à travers la vie, en eaux calmes ou agitées."
+      },
+      "pt": {
+        "simbolo": "Barco",
+        "significado": "A jornada emocional pela vida, em águas calmas ou turbulentas."
+      },
+      "zh": {
+        "simbolo": "船",
+        "significado": "穿越人生的情感旅程,或平静或汹涌的水域。"
+      }
+    },
+    {
+      "key": "puente",
+      "es": {
+        "simbolo": "Puente",
+        "significado": "Una transición entre dos etapas, o la conexión entre personas o ideas."
+      },
+      "en": {
+        "simbolo": "Bridge",
+        "significado": "A transition between two stages, or a connection between people or ideas."
+      },
+      "fr": {
+        "simbolo": "Pont",
+        "significado": "Une transition entre deux étapes, ou un lien entre personnes ou idées."
+      },
+      "pt": {
+        "simbolo": "Ponte",
+        "significado": "Uma transição entre duas etapas, ou a conexão entre pessoas ou ideias."
+      },
+      "zh": {
+        "simbolo": "桥",
+        "significado": "两个阶段之间的过渡,或人与人、想法之间的连接。"
+      }
+    }
+  ],
+  "muerte_y_transformacion": [
+    {
+      "key": "muerte",
+      "es": {
+        "simbolo": "Muerte",
+        "significado": "Rara vez literal; suele significar el final de una etapa y un nuevo comienzo."
+      },
+      "en": {
+        "simbolo": "Death",
+        "significado": "Rarely literal; usually means the end of a stage and a new beginning."
+      },
+      "fr": {
+        "simbolo": "Mort",
+        "significado": "Rarement littéral ; signifie souvent la fin d'une étape et un nouveau départ."
+      },
+      "pt": {
+        "simbolo": "Morte",
+        "significado": "Raramente literal; costuma significar o fim de uma etapa e um novo começo."
+      },
+      "zh": {
+        "simbolo": "死亡",
+        "significado": "很少是字面意思;通常意味着一个阶段的结束和新的开始。"
+      }
+    },
+    {
+      "key": "funeral",
+      "es": {
+        "simbolo": "Funeral",
+        "significado": "La necesidad de cerrar un ciclo o procesar una pérdida simbólica."
+      },
+      "en": {
+        "simbolo": "Funeral",
+        "significado": "The need to close a cycle or process a symbolic loss."
+      },
+      "fr": {
+        "simbolo": "Funérailles",
+        "significado": "Le besoin de clore un cycle ou de faire le deuil symbolique."
+      },
+      "pt": {
+        "simbolo": "Funeral",
+        "significado": "A necessidade de fechar um ciclo ou processar uma perda simbólica."
+      },
+      "zh": {
+        "simbolo": "葬礼",
+        "significado": "需要为某个周期画上句点,或处理某种象征性的失去。"
+      }
+    },
+    {
+      "key": "renacimiento",
+      "es": {
+        "simbolo": "Renacimiento",
+        "significado": "Un nuevo comienzo o la superación de un conflicto interno."
+      },
+      "en": {
+        "simbolo": "Rebirth",
+        "significado": "A new beginning or overcoming an inner conflict."
+      },
+      "fr": {
+        "simbolo": "Renaissance",
+        "significado": "Un nouveau départ ou le dépassement d'un conflit intérieur."
+      },
+      "pt": {
+        "simbolo": "Renascimento",
+        "significado": "Um novo começo ou a superação de um conflito interno."
+      },
+      "zh": {
+        "simbolo": "重生",
+        "significado": "全新的开始,或克服内心的冲突。"
+      }
+    },
+    {
+      "key": "fantasma",
+      "es": {
+        "simbolo": "Fantasma",
+        "significado": "Asuntos del pasado sin resolver o culpa no procesada."
+      },
+      "en": {
+        "simbolo": "Ghost",
+        "significado": "Unresolved matters from the past, or unprocessed guilt."
+      },
+      "fr": {
+        "simbolo": "Fantôme",
+        "significado": "Questions du passé non résolues ou culpabilité non traitée."
+      },
+      "pt": {
+        "simbolo": "Fantasma",
+        "significado": "Assuntos do passado não resolvidos ou culpa não processada."
+      },
+      "zh": {
+        "simbolo": "幽灵",
+        "significado": "尚未解决的过往,或未曾释怀的愧疚。"
+      }
+    },
+    {
+      "key": "cementerio",
+      "es": {
+        "simbolo": "Cementerio",
+        "significado": "El cierre de ciclos, la memoria del pasado o tu propia mortalidad."
+      },
+      "en": {
+        "simbolo": "Cemetery",
+        "significado": "The closing of cycles, memories of the past, or your own mortality."
+      },
+      "fr": {
+        "simbolo": "Cimetière",
+        "significado": "La clôture de cycles, la mémoire du passé ou ta propre mortalité."
+      },
+      "pt": {
+        "simbolo": "Cemitério",
+        "significado": "O fechamento de ciclos, a memória do passado ou sua própria mortalidade."
+      },
+      "zh": {
+        "simbolo": "墓地",
+        "significado": "周期的结束、对往事的追忆,或对自身生命有限的思考。"
+      }
+    },
+    {
+      "key": "esqueleto",
+      "es": {
+        "simbolo": "Esqueleto",
+        "significado": "Lo esencial de una situación o miedo a la vulnerabilidad extrema."
+      },
+      "en": {
+        "simbolo": "Skeleton",
+        "significado": "The essence of a situation, or fear of extreme vulnerability."
+      },
+      "fr": {
+        "simbolo": "Squelette",
+        "significado": "L'essence d'une situation, ou peur d'une vulnérabilité extrême."
+      },
+      "pt": {
+        "simbolo": "Esqueleto",
+        "significado": "A essência de uma situação, ou medo de uma vulnerabilidade extrema."
+      },
+      "zh": {
+        "simbolo": "骨架",
+        "significado": "一个处境的本质,或对极度脆弱的恐惧。"
+      }
+    }
+  ]
+}
