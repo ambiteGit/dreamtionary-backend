@@ -54,6 +54,11 @@ class InterpretarPremiumRequest(BaseModel):
     idioma: str = Field(default="es")
 
 
+class DiccionarioRequest(BaseModel):
+    palabra: str = Field(..., min_length=1, max_length=60)
+    idioma: str = Field(default="es")
+
+
 def normalizar_idioma(idioma: str) -> str:
     return idioma if idioma in IDIOMAS_VALIDOS else "es"
 
@@ -184,3 +189,45 @@ specific facts about the user's life)
         raise HTTPException(status_code=502, detail=f"Error al generar la interpretación: {e}")
 
     return {"interpretacion": texto_interpretacion}
+
+
+@app.post("/diccionario")
+def diccionario_ia(request: DiccionarioRequest):
+    """
+    Fallback del Diccionario: si una palabra no está en dream_symbols_i18n.json,
+    se le pide a la IA (Haiku, barato) una definición corta en estilo simbología
+    onírica, coherente con el resto del diccionario. El resultado se cachea en
+    el propio dispositivo del usuario (AsyncStorage), así que esta llamada solo
+    ocurre la primera vez que alguien busca esa palabra en ese idioma.
+    """
+    idioma = normalizar_idioma(request.idioma)
+    nombre_idioma = NOMBRE_IDIOMA[idioma]
+    palabra = request.palabra.strip()
+
+    # Primero comprobamos si ya existe en la base de datos local (evita gastar IA de más)
+    entrada_local = buscar_significado(palabra, idioma)
+    if entrada_local:
+        return {"simbolo": entrada_local["simbolo"], "significado": entrada_local["significado"], "fuente": "local"}
+
+    prompt = f"""You are a dream symbolism dictionary. Given a single word or short \
+phrase, respond with its traditional dream-symbolism meaning in ONE short sentence \
+(max 20 words), in the same neutral, warm style as a dream dictionary entry.
+
+IMPORTANT: Respond ONLY in {nombre_idioma}. Respond ONLY with the meaning sentence, \
+no preamble, no quotes, no extra text.
+
+Word: {palabra}"""
+
+    try:
+        respuesta = client.messages.create(
+            model=MODEL_FREE,
+            max_tokens=80,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        significado = "".join(
+            bloque.text for bloque in respuesta.content if bloque.type == "text"
+        ).strip()
+    except Exception as e:
+        raise HTTPException(status_code=502, detail=f"Error al consultar el diccionario: {e}")
+
+    return {"simbolo": palabra.capitalize(), "significado": significado, "fuente": "ia"}
