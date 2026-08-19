@@ -11,8 +11,9 @@ API que conecta la app móvil con Claude para generar interpretaciones de sueño
    - **Runtime**: Python 3
    - **Build Command**: `pip install -r requirements.txt`
    - **Start Command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-5. En la sección **Environment**, añade la variable de entorno:
+5. En la sección **Environment**, añade estas variables de entorno:
    - `ANTHROPIC_API_KEY` = tu clave de la API de Anthropic (consíguela en https://console.anthropic.com)
+   - `UNSPLASH_ACCESS_KEY` = tu Access Key de Unsplash (consíguela en https://unsplash.com/developers), necesaria para las fotos concepto del Diccionario. Si no la añades, la app sigue funcionando con normalidad, simplemente no se mostrarán fotos.
 6. Despliega. Render te dará una URL tipo `https://dreamtionary-api.onrender.com`
 
 ## Conectar la app móvil a este backend
