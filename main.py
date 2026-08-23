@@ -38,6 +38,7 @@ UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY")
 # busquen por IA), cada término solo necesita pedirse a Unsplash una vez;
 # el resto de peticiones (de cualquier usuario) se sirven desde aquí.
 _cache_fotos = {}
+_cache_download_locations = {}
 
 # Modelos: Haiku para el intérprete gratuito (barato), Sonnet para el premium (mejor calidad)
 MODEL_FREE = "claude-haiku-4-5-20251001"
@@ -312,15 +313,52 @@ async def diccionario_foto(request: DiccionarioFotoRequest):
         resultado = {"url": None}
     else:
         foto = resultados[0]
+        # Unsplash exige que los enlaces de atribución (tanto al fotógrafo
+        # como a Unsplash) lleven parámetros UTM identificando la app.
+        utm = "?utm_source=Dreamtionary&utm_medium=referral"
         resultado = {
             "url": foto["urls"]["regular"],
             "urlThumb": foto["urls"]["small"],
             "autor": foto["user"]["name"],
-            "autorUrl": foto["user"]["links"]["html"],
+            "autorUrl": foto["user"]["links"]["html"] + utm,
+            "unsplashUrl": "https://unsplash.com/" + utm,
         }
+        # download_location se guarda solo en el servidor (no se expone al
+        # cliente) — se usa para registrar el "uso" de la foto ante Unsplash,
+        # tal como exigen sus guías de la API.
+        _cache_download_locations[clave] = foto["links"]["download_location"]
 
     _cache_fotos[clave] = resultado
     return resultado
+
+
+@app.post("/diccionario-foto-uso")
+async def diccionario_foto_uso(request: DiccionarioFotoRequest):
+    """
+    Registra ante Unsplash que una foto se está mostrando/usando en la app,
+    tal como exigen sus guías de la API ("Triggering downloads"). Se llama
+    desde el cliente cada vez que el usuario ve una foto concepto, no solo
+    la primera vez que el servidor la cachea.
+    """
+    clave = request.termino.lower().strip()
+    download_location = _cache_download_locations.get(clave)
+
+    if not download_location or not UNSPLASH_ACCESS_KEY:
+        return {"ok": False}
+
+    try:
+        async with httpx.AsyncClient() as http_client:
+            await http_client.get(
+                download_location,
+                headers={"Authorization": f"Client-ID {UNSPLASH_ACCESS_KEY}"},
+            )
+    except Exception as e:
+        # No interrumpimos la experiencia del usuario si esto falla; solo
+        # registramos el error en los logs del servidor.
+        print(f"Error registrando uso de foto en Unsplash: {e}")
+        return {"ok": False}
+
+    return {"ok": True}
 
 
 @app.post("/diccionario-ampliado")
