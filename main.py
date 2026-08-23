@@ -38,7 +38,6 @@ UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY")
 # busquen por IA), cada término solo necesita pedirse a Unsplash una vez;
 # el resto de peticiones (de cualquier usuario) se sirven desde aquí.
 _cache_fotos = {}
-_cache_download_locations = {}
 
 # Modelos: Haiku para el intérprete gratuito (barato), Sonnet para el premium (mejor calidad)
 MODEL_FREE = "claude-haiku-4-5-20251001"
@@ -97,6 +96,10 @@ class DiccionarioRequest(BaseModel):
 
 class DiccionarioFotoRequest(BaseModel):
     termino: str = Field(..., min_length=1, max_length=60)
+
+
+class DiccionarioFotoUsoRequest(BaseModel):
+    download_location: str = Field(..., min_length=1, max_length=500)
 
 
 class DiccionarioAmpliadoRequest(BaseModel):
@@ -322,28 +325,35 @@ async def diccionario_foto(request: DiccionarioFotoRequest):
             "autor": foto["user"]["name"],
             "autorUrl": foto["user"]["links"]["html"] + utm,
             "unsplashUrl": "https://unsplash.com/" + utm,
+            # Se envía al cliente para que él mismo lo devuelva al llamar a
+            # /diccionario-foto-uso. Así el registro de "uso" no depende de
+            # una caché en memoria del servidor, que se pierde cada vez que
+            # Render reinicia el proceso por inactividad (plan gratuito).
+            "downloadLocation": foto["links"]["download_location"],
         }
-        # download_location se guarda solo en el servidor (no se expone al
-        # cliente) — se usa para registrar el "uso" de la foto ante Unsplash,
-        # tal como exigen sus guías de la API.
-        _cache_download_locations[clave] = foto["links"]["download_location"]
 
     _cache_fotos[clave] = resultado
     return resultado
 
 
 @app.post("/diccionario-foto-uso")
-async def diccionario_foto_uso(request: DiccionarioFotoRequest):
+async def diccionario_foto_uso(request: DiccionarioFotoUsoRequest):
     """
     Registra ante Unsplash que una foto se está mostrando/usando en la app,
-    tal como exigen sus guías de la API ("Triggering downloads"). Se llama
-    desde el cliente cada vez que el usuario ve una foto concepto, no solo
-    la primera vez que el servidor la cachea.
-    """
-    clave = request.termino.lower().strip()
-    download_location = _cache_download_locations.get(clave)
+    tal como exigen sus guías de la API ("Triggering downloads"). El cliente
+    envía el download_location que recibió en /diccionario-foto — así este
+    endpoint no depende de ninguna caché del servidor (que se perdería cada
+    vez que Render reinicia el proceso por inactividad en el plan gratuito).
 
-    if not download_location or not UNSPLASH_ACCESS_KEY:
+    Validamos que la URL sea realmente de la API de Unsplash, para no
+    convertir esto en un proxy abierto a cualquier URL.
+    """
+    download_location = request.download_location
+
+    if not download_location.startswith("https://api.unsplash.com/"):
+        raise HTTPException(status_code=400, detail="URL de destino no válida")
+
+    if not UNSPLASH_ACCESS_KEY:
         return {"ok": False}
 
     try:
